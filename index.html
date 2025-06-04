@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halaman Link Affiliate Saya</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #f0f4f8;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        padding: 2.5rem 1rem;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.75rem;
+        font-weight: 600;
+      }
+      header p {
+        margin: 0.5rem 0 0;
+        font-size: 1.2rem;
+        color: #d6d6ff;
+      }
+      main {
+        padding: 2rem 1rem 3rem;
+        max-width: 900px;
+        margin: 0 auto;
+        flex-grow: 1;
+      }
+      .link-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+      }
+      .affiliate-link-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }
+      .affiliate-link-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      }
+      .affiliate-link-card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+      }
+      .affiliate-link-card h3 {
+        margin: 0 0 0.75rem 0;
+        color: #764ba2;
+        font-weight: 600;
+        font-size: 1.3rem;
+      }
+      .affiliate-link-card p {
+        flex-grow: 1;
+        margin: 0 0 1.25rem 0;
+        color: #555;
+        font-size: 1rem;
+        line-height: 1.4;
+      }
+      .affiliate-link-card a.btn {
+        background: #764ba2;
+        color: white;
+        text-decoration: none;
+        padding: 0.75rem 1.6rem;
+        border-radius: 40px;
+        font-weight: 600;
+        text-align: center;
+        transition: background-color 0.3s ease;
+      }
+      .affiliate-link-card a.btn:hover {
+        background: #9674c2;
+      }
+      footer {
+        text-align: center;
+        background: #3a2a6b;
+        color: #ddd;
+        padding: 1rem 1rem;
+        font-size: 0.9rem;
+      }
+      @media (max-width: 480px) {
+        header h1 {
+          font-size: 2rem;
+        }
+        .affiliate-link-card h3 {
+          font-size: 1.1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Selamat Datang di Halaman</h1>
+      <p>Kunjungi link produk saya dan dapatkan penawaran terbaik!</p>
+    </header>
+    <main>
+      <div class="link-container">
+        <div class="affiliate-link-card">
+          <img src="11.png" alt="Produk A" />
+          <h3>Produk 1</h3>
+          <p>
+            Rak troli plastik rak toilet rak kamar mandi rak dapur serbaguna
+            dengan roda Rak Bumbu Rak Susun Kosmetik
+          </p>
+          <a
+            class="btn"
+            href="https://s.shopee.co.id/yMJdZjad"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Kunjungi Produk</a
+          >
+        </div>
+        <div class="affiliate-link-card">
+          <img
+            src="https://via.placeholder.com/400x160?text=Kursus+Online"
+            alt="Produk B"
+          />
+          <h3>Produk B - Kursus Online</h3>
+          <p>
+            Pelajari skill baru dengan kursus online berkualitas & dapatkan
+            diskon khusus lewat link ini.
+          </p>
+          <a
+            class="btn"
+            href="https://affiliate-link-anda.com/produk-b"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Kunjungi Kursus</a
+          >
+        </div>
+        <div class="affiliate-link-card">
+          <img
+            src="https://via.placeholder.com/400x160?text=Perangkat+Lunak"
+            alt="Produk C"
+          />
+          <h3>Produk C - Perangkat Lunak</h3>
+          <p>
+            Optimalkan pekerjaan Anda dengan perangkat lunak terbaik. Akses
+            penawaran khusus melalui link ini.
+          </p>
+          <a
+            class="btn"
+            href="https://affiliate-link-anda.com/produk-c"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Dapatkan Sekarang</a
+          >
+        </div>
+        <!-- Tambahkan link affiliate lainnya di sini -->
+      </div>
+    </main>
+    <footer>
+      &copy; 2024 Halaman Affiliate Marketing. Semua hak cipta dilindungi.
+    </footer>
+  </body>
+</html>
